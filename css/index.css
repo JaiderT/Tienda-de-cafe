@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Righteous&display=swap');
+body {
+    min-height: 100vh;
+    background-color: #3b141c;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.con-header {
+    background-color: #3b141c;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.con-header header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.con-header header .emoji a {
+    font-family: 'Righteous', cursive;
+    text-decoration: none;
+    font-size: 35px;
+    color: #fff;
+}
+
+.con-header .emoji a:hover {
+    color: #f3961c;
+}
+
+.con-header header ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.con-header header nav ul li a {
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.con-header header nav ul li a:hover {
+    color: #f3961c;
+}
+.inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;              
+    min-height: 100vh;       
+    padding: 60px 40px;
+    gap: 40px;
+}
+
+
+.inicio .textos {
+    flex: 1;
+    max-width: 100%; 
+}
+
+.inicio h1 {
+    font-family: 'Miniver', cursive;
+    font-size: 80px;
+    color: #ff9900;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.inicio h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.inicio p {
+    font-size: 35px;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+.links {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    background-color: #f3961c;
+    color: #000;
+    padding: 15px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    background-color: #fff;
+    color: #3b141c;
+}
+.con-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;   
+}
+
+.con-img img {
+    width: 800px;
+    height: 700px;
+    object-fit: cover;
+}
+
